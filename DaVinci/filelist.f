@@ -1,0 +1,11 @@
++incdir+./OLD
++incdir+./
+./Regfile.v
+./ALU_RECV.v
+./OLD/Decoder.v
+./OLD/ALU.v
+./Decode_INST.v
+./IMemory.v
+./CPU.v
+./AGU.v
+./DMemory.v

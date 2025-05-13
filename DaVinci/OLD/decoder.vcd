@@ -1,0 +1,153 @@
+$date
+	Sat Apr 20 13:25:47 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module decode_test $end
+$var wire 7 ! type_code [6:0] $end
+$var wire 5 " rs2 [4:0] $end
+$var wire 5 # rs1 [4:0] $end
+$var wire 5 $ rd [4:0] $end
+$var wire 10 % alu_op [9:0] $end
+$var reg 32 & instr [31:0] $end
+$scope module dec_test $end
+$var wire 32 ' instr [31:0] $end
+$var wire 7 ( type_code [6:0] $end
+$var wire 5 ) rs2 [4:0] $end
+$var wire 5 * rs1 [4:0] $end
+$var wire 5 + rd [4:0] $end
+$var wire 10 , alu_op [9:0] $end
+$scope module tc_dec $end
+$var wire 10 - alu_op [9:0] $end
+$var wire 32 . instr [31:0] $end
+$var wire 5 / rd [4:0] $end
+$var wire 5 0 rs1 [4:0] $end
+$var wire 5 1 rs2 [4:0] $end
+$var wire 7 2 type_code [6:0] $end
+$var wire 5 3 R_rs2_out [4:0] $end
+$var wire 5 4 R_rs1_out [4:0] $end
+$var wire 5 5 R_rd_out [4:0] $end
+$var wire 10 6 R_alu_op_out [9:0] $end
+$var reg 10 7 alu_op_temp [9:0] $end
+$var reg 5 8 rd_temp [4:0] $end
+$var reg 5 9 rs1_temp [4:0] $end
+$var reg 5 : rs2_temp [4:0] $end
+$scope module R_type_dec $end
+$var wire 10 ; alu_op [9:0] $end
+$var wire 32 < instr [31:0] $end
+$var wire 5 = rs2 [4:0] $end
+$var wire 5 > rs1 [4:0] $end
+$var wire 5 ? rd [4:0] $end
+$var wire 7 @ funct7 [6:0] $end
+$var wire 3 A funct3 [2:0] $end
+$var reg 10 B alu_op_temp [9:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10 B
+b0 A
+b100000 @
+b11 ?
+b10 >
+b1 =
+b1000000000100010000000110110011 <
+b10 ;
+b1 :
+b10 9
+b11 8
+b10 7
+b10 6
+b11 5
+b10 4
+b1 3
+b110011 2
+b1 1
+b10 0
+b11 /
+b1000000000100010000000110110011 .
+b10 -
+b10 ,
+b11 +
+b10 *
+b1 )
+b110011 (
+b1000000000100010000000110110011 '
+b1000000000100010000000110110011 &
+b10 %
+b11 $
+b10 #
+b1 "
+b110011 !
+$end
+#5
+b1001 $
+b1001 +
+b1001 /
+b1001 8
+b10 "
+b10 )
+b10 1
+b10 :
+b1 #
+b1 *
+b1 0
+b1 9
+b1010 %
+b1010 ,
+b1010 -
+b1010 7
+b1010 6
+b1010 ;
+b1010 B
+b1 4
+b1 >
+b10 3
+b10 =
+b1001 5
+b1001 ?
+b110 A
+b0 @
+b1000001110010010110011 &
+b1000001110010010110011 '
+b1000001110010010110011 .
+b1000001110010010110011 <
+#10
+b1 $
+b1 +
+b1 /
+b1 8
+b1100 "
+b1100 )
+b1100 1
+b1100 :
+b111 #
+b111 *
+b111 0
+b111 9
+b101 %
+b101 ,
+b101 -
+b101 7
+b101 6
+b101 ;
+b101 B
+b111 4
+b111 >
+b1100 3
+b1100 =
+b1 5
+b1 ?
+b10 A
+b110000111010000010110011 &
+b110000111010000010110011 '
+b110000111010000010110011 .
+b110000111010000010110011 <
+#15

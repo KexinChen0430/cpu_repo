@@ -1,0 +1,46 @@
+$date
+	Sun Apr 21 10:31:35 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module DMemory_test $end
+$var wire 32 ! data_r [31:0] $end
+$var reg 1 " Delete $end
+$var reg 1 # State $end
+$var reg 5 $ address [4:0] $end
+$var reg 32 % data_w [31:0] $end
+$scope module dmemory_test $end
+$var wire 1 " Delete $end
+$var wire 1 # State $end
+$var wire 5 & address [4:0] $end
+$var wire 32 ' data_w [31:0] $end
+$var reg 32 ( data_r [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx (
+b11110000000000000000000000001111 '
+b10 &
+b11110000000000000000000000001111 %
+b10 $
+0#
+0"
+bx !
+$end
+#5
+b11110000000000000000000000001111 !
+b11110000000000000000000000001111 (
+1#
+#10
+1"
+#15
+b0 !
+b0 (
+0"
+#20

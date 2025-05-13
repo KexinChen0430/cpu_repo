@@ -1,0 +1,54 @@
+算数操作
+10-bit
+alu_op      op_name
+0000000001  add
+0000000010  sub
+0000000011  sll
+0000000101  slt
+0000000110  sltu
+0000000111  xor
+0000001000  srl
+0000001001  sra
+0000001010  or
+0000001011  and
+1000000001  addi
+1000000011  slli
+1000000101  slti
+1000000110  sltiu
+1000000111  xori
+1000001000  srli
+1000001001  srai
+1000001010  ori
+1000001011  andi
+1111111111  NULL
+
+加载/存储操作
+5-bit
+ls_op op_name
+00001 lb(load 8-bit,address=rs1+address_imm)
+00010 lh(load 16-bit,address=rs1+address_imm)
+00011 lw(load 32-bit,address=rs1+address_imm)
+00100 lui(rd=address_imm<<12,低12位补0)
+00101 auipc(rd=pc+address_imm<<12)
+00110 sb(rs1+address_imm=rs2[7:0])
+00111 sh(rs1+address_imm=rs2[15:0])
+01000 sw(rs1+address_imm=rs2[31:0])
+11111 NULL
+
+跳转操作
+5-bit
+j_op  op_name
+00001 jalr(rd=pc+4,pc=rs1+address_imm,pc最低有效位设为0,rd默认x1)
+00010 jal(rd=pc+4,pc=pc+address_imm,rd默认x1)
+11111 NULL
+
+分支操作
+5-bit
+b_op  op_name
+00001 beg(if rs1==rs2,pc=pc+address_imm)
+00010 bne(if rs1!=rs2,pc=pc+address_imm)
+00011 blt(if rs1<=rs2(均为补码),pc=pc+address_imm)
+00100 bge(if rs1>=rs2(均为补码),pc=pc+address_imm)
+00101 bltu(if rs1<=rs2(均为补码无符号数),pc=pc+address_imm)
+00111 bgeu(if rs1>=rs2(均为补码无符号数),pc=pc+address_imm)
+11111 NULL

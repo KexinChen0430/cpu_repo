@@ -1,0 +1,55 @@
+$date
+	Sun Apr 21 10:33:36 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module Regfile_test $end
+$var wire 32 ! reg_data [31:0] $end
+$var reg 1 " State $end
+$var reg 5 # reg_address [4:0] $end
+$var reg 32 $ reg_data_w [31:0] $end
+$scope module regfile_test $end
+$var wire 1 " State $end
+$var wire 5 % address [4:0] $end
+$var wire 32 & data_w [31:0] $end
+$var reg 32 ' data [31:0] $end
+$var integer 32 ( i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b100000 (
+b0 '
+bx &
+b0 %
+bx $
+b0 #
+1"
+b0 !
+$end
+#5
+b11110000000000000000000000001111 $
+b11110000000000000000000000001111 &
+b1 #
+b1 %
+0"
+#10
+b11110000000000000000000000001111 !
+b11110000000000000000000000001111 '
+1"
+#15
+b11111111111111111111111111111111 $
+b11111111111111111111111111111111 &
+b0 #
+b0 %
+0"
+#20
+b0 !
+b0 '
+1"
+#25

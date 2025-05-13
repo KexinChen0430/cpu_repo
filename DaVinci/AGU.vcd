@@ -1,0 +1,30 @@
+$date
+	Sun Apr 21 12:05:41 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module AGU_test $end
+$var wire 32 ! address [31:0] $end
+$var reg 1 " PCWre $end
+$var reg 1 # _CLK $end
+$var reg 1 $ _Rest $end
+$scope module ieu_test $end
+$var wire 1 " PCWre $end
+$var wire 1 # _CLK $end
+$var wire 1 $ _Rest $end
+$var reg 32 % address [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx %
+x$
+x#
+x"
+bx !
+$end

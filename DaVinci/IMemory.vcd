@@ -1,0 +1,42 @@
+$date
+	Sun Apr 21 10:33:17 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module IMemory_test $end
+$var wire 32 ! instr [31:0] $end
+$var reg 32 " address [31:0] $end
+$scope module imemory_test $end
+$var wire 32 # address [31:0] $end
+$var reg 32 $ instr [31:0] $end
+$var reg 32 % instr1 [31:0] $end
+$var reg 32 & instr2 [31:0] $end
+$var reg 32 ' instr3 [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b110000111010000010110011 '
+b1000000000100010000000110110011 &
+b1000001110010010110011 %
+b1000001110010010110011 $
+b0 #
+b0 "
+b1000001110010010110011 !
+$end
+#5
+b1000000000100010000000110110011 !
+b1000000000100010000000110110011 $
+b100 "
+b100 #
+#10
+b110000111010000010110011 !
+b110000111010000010110011 $
+b1000 "
+b1000 #
+#15
