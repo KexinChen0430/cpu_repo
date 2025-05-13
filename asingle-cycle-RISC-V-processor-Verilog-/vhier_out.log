@@ -1,0 +1,15 @@
+  top
+    Adder
+    Adder
+    AlU_Control
+    Control_Unit
+    Data_Memory
+    Instruction_Memory
+    Instruction_parser
+    IMD
+    Program_Counter
+    registerFile
+    alux64
+    mux
+    mux
+    mux

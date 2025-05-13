@@ -1,0 +1,13 @@
++incdir+./
+./IMD.v
+./regfile.v
+./ALU_Control.v
+./IP.v
+./Instruction_Memory.v
+./alux64.v
+./top.v
+./Adder.v
+./Data_Memory.v
+./Control_Unit.v
+./PC.v
+./MUX.v
