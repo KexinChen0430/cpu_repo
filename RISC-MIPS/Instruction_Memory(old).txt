@@ -1,0 +1,64 @@
+0A
+00
+28
+8D		// LW $t0, 10 ($t1)
+14
+00
+8B
+AD      //SW $t3, 20 ($t4)
+20
+68
+CF
+01		//ADD $t5, $t6, $t7  // Add followed by dependent SUB
+22
+50
+AF
+01		//SUB $t2, $t5, $t7  // Stall due to $t5 dependency
+20
+68
+CF
+01		//ADD $t5, $t6, $t7		// Add followed by independent SUB
+22
+50
+CF
+01		//SUB $t2, $t6, $t7
+00
+00			
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
