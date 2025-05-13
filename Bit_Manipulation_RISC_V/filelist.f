@@ -1,0 +1,2 @@
++incdir+./
+./CLZ.v
