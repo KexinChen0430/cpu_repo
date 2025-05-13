@@ -1,0 +1,12 @@
++incdir+./Verilog
++incdir+./SYN
+./Verilog/NPU_CUBE_ADD_TREE_WALLACE_PRODUCT_CODE.v
+./Verilog/NPU_GEN_PROD.v
+./Verilog/NPU_ADD_TREE_TOP.v
+./Verilog/NPU_CUBE_TREE_INPUT.v
+./Verilog/booth_enc.v
+./Verilog/NPU_CUBE_ADD_PRODUCT_CODE.v
+./Verilog/NPU_CUBE_ADD_TREE_WALLACE_EXTEND_SIGN.v
+./Verilog/NPU_GEN_PROD_EXTEND.v
+./Verilog/NPU_CUBE_ADD_TREE_CODE.v
+./SYN/NPU_ADD_TREE.v
