@@ -1,0 +1,17 @@
++incdir+./core
+./core/mpx_cop0.v
+./core/mpx_alu.v
+./core/mpx_core.v
+./core/mpx_decode.v
+./core/mpx_fetch.v
+./core/mpx_regfile.v
+./core/mpx_divider.v
+./core/mpx_xilinx_2r1w.v
+./core/mpx_issue.v
+./core/mpx_defs.v
+./core/mpx_trace_sim.v
+./core/mpx_lsu.v
+./core/mpx_cop0_regfile.v
+./core/mpx_pipe_ctrl.v
+./core/mpx_exec.v
+./core/mpx_multiplier.v
