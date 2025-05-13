@@ -1,0 +1,9 @@
++incdir+./verilog_code
+./verilog_code/branch.v
+./verilog_code/RegFile.v
+./verilog_code/imm_gen.v
+./verilog_code/Memory.v
+./verilog_code/Top_Module.v
+./verilog_code/Decoder.v
+./verilog_code/Instr_Memory.v
+./verilog_code/alu.v

@@ -1,0 +1,8 @@
+  Top_Module
+    alu
+    branch
+    Decoder
+    imm_gen
+    Instr_Memory
+    Memory
+    RegFile
