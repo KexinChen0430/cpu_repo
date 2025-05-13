@@ -1,0 +1,15 @@
++incdir+./
+./Access.v
+./CPU_export_read.v
+./CPU_export.v
+./Execute.v
+./Fetch_tb_readPC.v
+./Decode_tb_add.v
+./Fetch.v
+./Execute_tb_add.v
+./Decode.v
+./CPU.v
+./CPU_export_write.v
+./WriteBack.v
+./Clock.v
+./CPU_tb1.v
