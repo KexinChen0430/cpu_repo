@@ -1,0 +1,12 @@
++incdir+./rtl
++incdir+./
+./utils.v
+./config.v
+./wishbone.v
+./rtl/mimasv2.v
+./rtl/intercon.v
+./rtl/syscon.v
+./rtl/ram.v
+./rtl/soc.v
+./rtl/rom.v
+./rtl/uart.v
