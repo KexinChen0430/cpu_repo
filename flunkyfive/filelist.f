@@ -1,0 +1,10 @@
++incdir+./src/rtl
++incdir+./src/bfm
+./src/rtl/flunkyfive.v
+./src/rtl/true_dual_port_ram_dual_clock.v
+./src/rtl/shared_ram.v
+./src/rtl/gpio.v
+./src/rtl/flunky.v
+./src/rtl/true_dual_port_ram_single_clock.v
+./src/bfm/ff_utilities.v
+./src/bfm/ff_apb_master_bfm.v
