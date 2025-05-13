@@ -1,0 +1,53 @@
+// Please include verilog file if you write module in other file
+module CPU(
+    input             clk,
+    input             rst,
+    input      [31:0] data_out,
+    input      [31:0] instr_out,
+    output            instr_read,
+    output            data_read,
+    output     [31:0] instr_addr,
+    output     [31:0] data_addr,
+    output reg [3:0]  data_write,
+    output reg [31:0] data_in
+);
+
+//wire opcode = instr_out[6:0];
+//reg to_ALU,rs1_able,rs2_able,rd_able;
+//reg [4:0]rs1_data, rs2_data,rd_data;
+/* Add your design */
+
+//test
+
+instr_read = 0;
+data_read = 0;
+instr_addr = instr_out;
+data_addr = instr_addr;
+
+
+always @(posedge clk or posedge rst) begin
+    //case(opcode)
+        /*7'b0110011:begin //R-type
+            rs1_able = 1; rs2_able=1; rd_able = 1; 
+            rs1_data = instr_out[19:15]; rs2_data = instr_out[24:20]; rd_data = instr_out[11:7];
+            case(instr_out[14:12])
+                3'b000,3'b100,3'b110,3'b111:begin
+                    to_ALU = 1; 
+                end
+            
+        end*/
+	
+//test
+data_write = 4'b0000;
+data_in <= instr_out;
+	
+
+
+end
+
+
+/*always @(to_ALU) begin //ALU
+    
+end*/
+
+endmodule

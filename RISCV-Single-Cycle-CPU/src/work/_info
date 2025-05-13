@@ -1,0 +1,844 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d//Mac/Home/Desktop/program/test
+vALU
+Z0 !s110 1621241938
+!i10b 1
+!s100 CzKdRgSSSHAl8Mg@3=^I20
+IbJia6?mD;nHgg1H;k<>IT0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d//Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src
+Z3 w1621232610
+Z4 8ALU.v
+Z5 FALU.v
+L0 16
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1621241938.000000
+Z8 !s107 dealData.v|RegFile.v|PC.v|ALU.v|CU.v|//Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/CPU.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/CPU.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@a@l@u
+vALUmux
+R0
+!i10b 1
+!s100 Bd?TbD3@cVIBLl`AH7`d62
+IMz]APVE[czAni9T[n1=PG0
+R1
+R2
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@a@l@umux
+vALUMux
+Z12 !s110 1621086873
+!i10b 1
+!s100 TPe7WCa?CB6H`2kPmgDae2
+IAkFnP7bJnK8O]^HCDd^5e1
+R1
+R2
+Z13 w1621086864
+Z14 8\\Mac\Home\Desktop\hw3_single_cycle_riscv_cpu\F740XXXXX\src\CPU.v
+Z15 F\\Mac\Home\Desktop\hw3_single_cycle_riscv_cpu\F740XXXXX\src\CPU.v
+L0 522
+R6
+r1
+!s85 0
+31
+Z16 !s108 1621086872.000000
+Z17 !s107 \\Mac\Home\Desktop\hw3_single_cycle_riscv_cpu\F740XXXXX\src\CPU.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|\\Mac\Home\Desktop\hw3_single_cycle_riscv_cpu\F740XXXXX\src\CPU.v|
+!i113 1
+R10
+R11
+n@a@l@u@mux
+vControlUnit
+!s110 1621086872
+!i10b 1
+!s100 E2zI[5=9ZV5?N2^EAh:a_1
+ID`K<WNXU0LZ@4ObZhlVlF1
+R1
+R2
+R13
+R14
+R15
+L0 99
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+n@control@unit
+vCPU
+R0
+!i10b 1
+!s100 n[PboG6bCL:S]_?lHId8O2
+IY9c`PDi9lfIPQIb5[=LVI1
+R1
+R2
+w1621241873
+8//Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/CPU.v
+F//Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/CPU.v
+L0 9
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@c@p@u
+vCU
+R0
+!i10b 1
+!s100 Z2;iGHMMPVlGl^HEYmbb@2
+IC6@feLoUz9GIb9f8;LT0K3
+R1
+R2
+w1621241876
+8CU.v
+FCU.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@c@u
+vDataAddr
+R12
+!i10b 1
+!s100 3@_[03a8CmDLmjXLDT6Je1
+I?9[_RlWi66nb>dm_SjMKL0
+R1
+R2
+R13
+R14
+R15
+L0 651
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+n@data@addr
+vdealDataAddr
+Z19 !s110 1621215305
+!i10b 1
+!s100 5:`QciY?U8WbS5L0Vd4aS2
+I]nB1IXCzj<?h8c_C7UWcK3
+R1
+R2
+Z20 w1621215245
+Z21 8\\Mac\Home\Desktop\hw3_single_cycle_riscv_cpu\F740XXXXX\src\dealData.v
+Z22 F\\Mac\Home\Desktop\hw3_single_cycle_riscv_cpu\F740XXXXX\src\dealData.v
+L0 201
+R6
+r1
+!s85 0
+31
+Z23 !s108 1621215304.000000
+Z24 !s107 \\Mac\Home\Desktop\hw3_single_cycle_riscv_cpu\F740XXXXX\src\dealData.v|
+Z25 !s90 -reportprogress|300|-work|work|-stats=none|\\Mac\Home\Desktop\hw3_single_cycle_riscv_cpu\F740XXXXX\src\dealData.v|
+!i113 1
+R10
+R11
+ndeal@data@addr
+vdealDataRead
+Z26 !s110 1621243294
+!i10b 1
+!s100 8SUlBS5JZzLXm6?BHnd4X0
+I1fTC2ViCKVdPMAAjLO[^Y3
+R1
+R2
+Z27 w1621243234
+R21
+R22
+L0 1
+R6
+r1
+!s85 0
+31
+Z28 !s108 1621243293.000000
+R24
+R25
+!i113 1
+R10
+R11
+ndeal@data@read
+vDealDataRead
+R12
+!i10b 1
+!s100 ]_4E2[aOXU;k92FUZ<N<X1
+I;Cn9m><D=hcj;RYgD>;j=2
+R1
+R2
+R13
+R14
+R15
+L0 638
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+n@deal@data@read
+vdealImm
+!s110 1621215304
+!i10b 1
+!s100 1DUooYWN^k4z;aXnn?QZ?1
+IBBDko2eK9UNN2]4niVJ]^1
+R1
+R2
+R20
+R21
+R22
+L0 49
+R6
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R10
+R11
+ndeal@imm
+vDealImme
+R12
+!i10b 1
+!s100 [=7gFbA<DY1zB^V?@MGRE2
+Im9UVmnF=nzPK@OdKB=VKM2
+R1
+R2
+R13
+R14
+R15
+L0 314
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+n@deal@imme
+vdealInstrRead
+R19
+!i10b 1
+!s100 8a3WkRVi>dRO@Jn:7cdTT1
+I8o:M`=HolP77feS?Cf_dd2
+R1
+R2
+R20
+R21
+R22
+L0 187
+R6
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R10
+R11
+ndeal@instr@read
+vDealInstrRead
+R12
+!i10b 1
+!s100 h4;Qb;XgeI=U3ellkG80J3
+InfDdncKLk8k3RRT3^AJcS2
+R1
+R2
+R13
+R14
+R15
+L0 625
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+n@deal@instr@read
+vDealJorU
+R12
+!i10b 1
+!s100 ?FT@^253HJF@mzZ2P^4;l1
+I=FSk9[z_kDL5=H<C<PcX=0
+R1
+R2
+R13
+R14
+R15
+L0 445
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+n@deal@jor@u
+vdealLoad
+R26
+!i10b 1
+!s100 Y]M9TIYYM46Zg_cH1bc840
+IXnNU2LZ]M77W]<b@LS0410
+R1
+R2
+R27
+R21
+R22
+L0 15
+R6
+r1
+!s85 0
+31
+R28
+R24
+R25
+!i113 1
+R10
+R11
+ndeal@load
+vDealLoad
+R12
+!i10b 1
+!s100 YLbML^RHB>H4BFJ7>Wh5I1
+I[4d0Kf]IF76d8a04<SCck3
+R1
+R2
+R13
+R14
+R15
+L0 539
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+n@deal@load
+vdealStore
+R26
+!i10b 1
+!s100 5BAFXJP6:faM5=Z5R@[DL0
+I^Y3VVP>OHl0moUo==UH7L0
+R1
+R2
+R27
+R21
+R22
+Z29 L0 116
+R6
+r1
+!s85 0
+31
+R28
+R24
+R25
+!i113 1
+R10
+R11
+ndeal@store
+vDealStore
+R12
+!i10b 1
+!s100 5:LKXEFlUGS^cRc]nhoNN2
+Id1EI4nY9YfFDeI>PT98dd3
+R1
+R2
+R13
+R14
+R15
+L0 571
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+n@deal@store
+vgenAndExtend_Imm
+R26
+!i10b 1
+!s100 >mHe8I2UT>i>X2SF9Z]]e3
+IQc@^`Cc@8[ZCJa;WJFELB1
+R1
+R2
+R27
+R21
+R22
+L0 50
+R6
+r1
+!s85 0
+31
+R28
+R24
+R25
+!i113 1
+R10
+R11
+ngen@and@extend_@imm
+vgenerate_DataAddr
+R26
+!i10b 1
+!s100 JDX7UI5o27<I;MSWfYCnk3
+I2aQd^MK5oeafR3[GS^>Ti1
+R1
+R2
+R27
+R21
+R22
+L0 180
+R6
+r1
+!s85 0
+31
+R28
+R24
+R25
+!i113 1
+R10
+R11
+ngenerate_@data@addr
+vJorU_PCandRD
+R0
+!i10b 1
+!s100 KkLbcmbhAQOS5<RIFcWTF3
+Id8cGBJcaIoC<;9]`7ESzH2
+R1
+R2
+Z30 w1621241875
+Z31 8PC.v
+Z32 FPC.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@jor@u_@p@cand@r@d
+vPC
+R0
+!i10b 1
+!s100 PfNl_c@I]Ngf4E[^=m>VJ2
+Iz?[Xk2714J2^Qdca9`I<13
+R1
+R2
+R30
+R31
+R32
+R29
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@p@c
+vPCmux
+R0
+!i10b 1
+!s100 >P=XT_ZzH?MYFRh54ff>43
+I__BB<;TY1L?_BmFbS:z5g0
+R1
+R2
+R30
+R31
+R32
+L0 91
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@p@cmux
+vPCMux
+R12
+!i10b 1
+!s100 JM7O9<AZoBMh5ObQ5=YRT1
+IWAIgV=Ro7HA0G;3`Xh_]W1
+R1
+R2
+R13
+R14
+R15
+L0 425
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+n@p@c@mux
+vPCSrc
+R0
+!i10b 1
+!s100 8Kk<`K=:hSml_aLG2YINn1
+Ii=z^55O6lbBldHzLCNzTB2
+R1
+R2
+R30
+R31
+R32
+L0 73
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@p@c@src
+vrdMux
+R0
+!i10b 1
+!s100 9zbMz^h==ITihPmDoN:C_3
+I]?H8H^_X20CoR<7GC5aei2
+R1
+R2
+Z33 w1621241868
+Z34 8RegFile.v
+Z35 FRegFile.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nrd@mux
+vreg_forInstr
+R26
+!i10b 1
+!s100 0I2YX74[6T;gL>]P48fAR3
+I_lVRkgnJEWhXe4hRQOhBl1
+R1
+R2
+R27
+R21
+R22
+L0 203
+R6
+r1
+!s85 0
+31
+R28
+R24
+R25
+!i113 1
+R10
+R11
+nreg_for@instr
+vRegFile
+R0
+!i10b 1
+!s100 ]JgajiT6@Q9R@X7>Y`fAZ3
+IQe[XT2hL5oNON3PD_aD2R2
+R1
+R2
+R33
+R34
+R35
+L0 22
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@reg@file
+vShamtMux
+R12
+!i10b 1
+!s100 9B7_;O<]AbA58GX>_gZ0l0
+IJl8>A<03?2BJ@7RWE62:F2
+R1
+R2
+R13
+R14
+R15
+L0 479
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+n@shamt@mux
+vShift
+R12
+!i10b 1
+!s100 6X4XJ<jT`6WKON_A:2DW]2
+I700kka_5QVLBB@95S[V3D0
+R1
+R2
+R13
+R14
+R15
+L0 390
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+n@shift
+vSRAM
+!s110 1621232645
+!i10b 1
+!s100 098NVJ5G7cQKQ54o@ikSC1
+IZc:=V:5dMJ:Ob9g_ZXnAf1
+R1
+R2
+w1621232597
+8//Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/SRAM.v
+F//Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/SRAM.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1621232645.000000
+!s107 //Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/SRAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/SRAM.v|
+!i113 1
+R10
+R11
+n@s@r@a@m
+vstoreInstr
+R19
+!i10b 1
+!s100 [5ceS`>V:XA8[MfT4?EYl3
+I_Q_9;g@9G9nSG0UF61?S=2
+R1
+R2
+R20
+R21
+R22
+L0 213
+R6
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R10
+R11
+nstore@instr
+vStoreInstr
+R12
+!i10b 1
+!s100 FAN^<Lmja3@Wg`b?4B=]03
+I223Vg??QFgXZAdonYTBzG2
+R1
+R2
+R13
+R14
+R15
+L0 666
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+n@store@instr
+vtop
+!s110 1620369204
+!i10b 1
+!s100 3nA]>>K_ENC>4H3_H3T@Y0
+I:ik53l<Sb^EeWSZPSR0=a0
+R1
+R2
+Z36 w1613988062
+8//Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top.v
+F//Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top.v
+L0 6
+R6
+r1
+!s85 0
+31
+!s108 1620369204.000000
+!s107 SRAM.v|CPU.v|//Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top.v|
+!i113 1
+R10
+R11
+vtop_tb
+!s110 1621076490
+!i10b 1
+!s100 G>0gzeVZEW0Al_bIBMz=R3
+IV]YdBz?ce[`nYUGG4oJGT1
+R1
+R2
+R36
+8//Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+F//Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+L0 14
+R6
+r1
+!s85 0
+31
+!s108 1621076490.000000
+!s107 //Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v|
+!i113 1
+R10
+R11
+vUseMem
+R12
+!i10b 1
+!s100 e7B=9`F?PUT8EQDSYM[lZ3
+ID]E@:b?L^>G:[6Pcg]j@j0
+R1
+R2
+R13
+R14
+R15
+L0 659
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+n@use@mem
+vwhetherRead
+R26
+!i10b 1
+!s100 F;>7WEOceeW7n`NBA[=AY3
+I6c@dm?HM=cGZ^Xc1M@QGc0
+R1
+R2
+R27
+R21
+R22
+L0 189
+R6
+r1
+!s85 0
+31
+R28
+R24
+R25
+!i113 1
+R10
+R11
+nwhether@read

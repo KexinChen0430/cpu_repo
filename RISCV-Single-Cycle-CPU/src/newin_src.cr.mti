@@ -1,0 +1,104 @@
+//Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/dealData.v {1 {vlog -work work -stats=none {\\Mac\Home\Desktop\hw3_single_cycle_riscv_cpu\F740XXXXX\src\dealData.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dealDataRead
+-- Compiling module dealLoad
+-- Compiling module genAndExtend_Imm
+-- Compiling module dealStore
+-- Compiling module generate_DataAddr
+-- Compiling module whetherRead
+-- Compiling module reg_forInstr
+
+Top level modules:
+	dealDataRead
+	dealLoad
+	genAndExtend_Imm
+	dealStore
+	generate_DataAddr
+	whetherRead
+	reg_forInstr
+
+} {} {}} //Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/CPU.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/CPU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CU
+-- Compiling module ALUmux
+-- Compiling module ALU
+-- Compiling module JorU_PCandRD
+-- Compiling module PCSrc
+-- Compiling module PCmux
+-- Compiling module PC
+-- Compiling module rdMux
+-- Compiling module RegFile
+-- Compiling module dealDataRead
+-- Compiling module dealLoad
+-- Compiling module genAndExtend_Imm
+-- Compiling module dealStore
+-- Compiling module generate_DataAddr
+-- Compiling module whetherRead
+-- Compiling module reg_forInstr
+-- Compiling module CPU
+
+Top level modules:
+	CPU
+
+} {} {}} //Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/CU.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/CU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CU
+
+Top level modules:
+	CU
+
+} {} {}} //Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top_tb
+
+Top level modules:
+	top_tb
+
+} {} {}} //Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/RegFile.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/RegFile.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module rdMux
+-- Compiling module RegFile
+
+Top level modules:
+	rdMux
+	RegFile
+
+} {} {}} //Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/ALU.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALUmux
+-- Compiling module ALU
+
+Top level modules:
+	ALUmux
+	ALU
+
+} {} {}} //Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/PC.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/PC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module JorU_PCandRD
+-- Compiling module PCSrc
+-- Compiling module PCmux
+-- Compiling module PC
+
+Top level modules:
+	JorU_PCandRD
+	PCSrc
+	PCmux
+	PC
+
+} {} {}} //Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/SRAM.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/SRAM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module SRAM
+
+Top level modules:
+	SRAM
+
+} {} {}} //Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/hw3_single_cycle_riscv_cpu/F740XXXXX/src/top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CPU
+-- Compiling module SRAM
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}}

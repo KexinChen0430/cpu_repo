@@ -1,0 +1,119 @@
+module ALUmux(
+    input [31:0]rs2, imm,
+    input alu_src,
+    output reg [31:0] second_src
+);
+always@(*)
+begin
+    if(alu_src)
+        second_src = imm;
+    else
+        second_src = rs2;
+end
+endmodule
+
+
+module ALU(
+    input u,a,mulh,
+    input [2:0]alu_op,
+    input [4:0]shamt,
+    input [31:0]src1, src2,
+    output reg [31:0]alu_result,
+    output reg zero
+    );
+
+parameter 
+    op_add = 1, op_sub = 2, op_and = 3, op_or  = 4,  op_xor = 5, op_mul = 6,
+    op_slt = 7, op_sll = 8, op_srl = 9, 
+    op_beq = 10, op_bne = 11, op_blt = 12, op_bge = 13;
+
+wire [31:0]src_sub;
+reg  [63:0]mul_result;
+assign src_sub = src1 - src2;
+
+always @(*) begin
+    alu_result = 0;
+    zero = 0; 
+    case (alu_op)
+        op_add: //1
+                begin
+                    alu_result = src1 + src2;
+                    //zero = 
+                end
+        op_sub: //2
+                begin
+                    alu_result = src1 - src2;
+                end
+        op_and: //3
+                begin
+                    alu_result = src1 & src2;
+                end
+        op_or://4
+                begin
+                    alu_result = src1 | src2;
+                end
+        op_xor://5
+                begin
+                    alu_result = src1 ^ src2;
+                end
+        op_mul://6
+                begin
+                    if(u)begin
+                        mul_result = $unsigned(src1) * $unsigned(src2);
+                        alu_result = mul_result[63:32]
+                    end
+                    else begin
+                        mul_result = $signed(src1) * $signed(src2);
+                        if(mulh)
+                            alu_result = mul_result[63:32]
+                        else
+                            alu_result = mul_result[31:0]
+                    end
+                               
+                end
+        op_slt://7
+                begin
+                    if(u)
+                        alu_result = ($unsigned(src1) < $unsigned(src2))? 32'd1 : 32'd0;
+                    else
+                        alu_result = ($signed(src1) < $signed(src2))? 32'd1 : 32'd0;
+                end
+        op_sll://8
+                begin
+                    alu_result = src1 << shamt;  
+                end
+        op_srl://9
+                begin
+                    if(a) 
+                        alu_result = $signed(src1) >>> shamt; //sra,srai
+                    else 
+                        alu_result = src1 >> shamt;
+                end
+        op_beq://10
+                begin
+                    zero = (src_sub == 0) ? 1 : 0;
+                end
+        op_bne://11
+                begin
+                    zero = (src_sub == 0) ? 0 : 1;
+                end
+        op_blt://12
+                begin
+                    if(u)
+                        zero = ($unsigned(src1) < $unsigned(src2))? 1 : 0;
+                    else
+                        zero = ($signed(src1) < $signed(src2))? 1 : 0;
+                end
+        op_bge://13
+                begin
+                    if(u)
+                        zero = ($unsigned(src1) >= $unsigned(src2))? 1 : 0;
+                    else
+                        zero = ($signed(src1) >= $signed(src2))? 1 : 0;
+                end
+
+        default: alu_result = 0;
+    endcase
+end
+
+endmodule

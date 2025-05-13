@@ -1,0 +1,59 @@
+module rdMux(
+    input rd_able, mem2reg, isJorU,
+    input [2:0]op_first3,
+    input [31:0]old_pc, imm, from_ALU, from_mem,
+    output reg [31:0]rd;
+);
+always @(*) begin
+    if(rd_able)begin
+        if(mem2reg)
+            rd = from_mem;
+        else begin
+            if(isJorU)begin
+                case(op_first3)
+                    3'b110: //jalr,jal
+                        rd = old_pc + 4;
+                    3'b001: //auipc
+                        rd = old_pc + imm;
+                    3'b011: //lui
+                        rd = imm;
+                endcase
+            end
+            else begin
+                rd = from_ALU;
+            end
+        end
+    end
+    else 
+        rd = 0;
+end
+endmodule
+
+
+module RegFile(
+    input clk, rst, rs1_able, rs2_able, rd_able, reg_w,
+    input [4:0]rs1_addr, rs2_addr,rd_addr,
+    input [31:0] rd_data,
+    output [31:0]rs1_data, rs2_data
+
+);
+
+reg [31:0] register [31:0];
+integer i;
+initial begin
+	for(i = 0; i < 32; i = i + 1)
+		register[i] = 32'd0;
+end
+
+assign rs1_data = rs1_able? register[rs1_addr] : 0;
+assign rs2_data = rs2_able? register[rs2_addr] : 0;
+
+always @ (posedge clk or posedge rst) begin
+		if (rst) 
+			for (i=0;i<32;i=i+1)
+				register[i] <= 0;
+		else if (rd_able && reg_w && rd_addr!=0)
+			register[rd_addr] <= rd_data;
+end
+
+endmodule
