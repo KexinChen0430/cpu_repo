@@ -1,0 +1,49 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Mon Apr 11 19:07:42 2022
+[*]
+[dumpfile] "C:\riscv\hardware\build\output.gtkwave"
+[dumpfile_mtime] "Mon Apr 11 19:06:15 2022"
+[dumpfile_size] 5707
+[savefile] "C:\riscv\hardware\config\config.gtkw"
+[timestart] 0
+[size] 2558 1368
+[pos] 960 -1
+*-1.935894 7 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] Test.
+[sst_width] 197
+[signals_width] 246
+[sst_expanded] 1
+[sst_vpaned_height] 423
+@28
+Test.riscv.clock_i
+Test.riscv.reset_i
+@200
+-
+@22
+Test.riscv.address_o[31:0]
+Test.riscv.data_i[31:0]
+@28
+Test.riscv.read_enable_o
+@200
+-
+@22
+Test.riscv.address_r[31:0]
+Test.riscv.instruction_address_r[31:0]
+@200
+-
+@28
+Test.riscv.func3_w[2:0]
+@2024
+^1 C:\riscv\hardware\config\reg.gtkw
+Test.riscv.rs1_w[4:0]
+^1 C:\riscv\hardware\config\reg.gtkw
+Test.riscv.rs2_w[4:0]
+^1 C:\riscv\hardware\config\reg.gtkw
+Test.riscv.rd_w[4:0]
+@200
+-
+@420
+Test.riscv.immediate_i_w[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
