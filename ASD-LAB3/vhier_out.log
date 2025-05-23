@@ -1,0 +1,5 @@
+  DataMemory
+  InstructionMemory
+  ProgramCounter
+  Shift2LRegister
+  SignalExtension
